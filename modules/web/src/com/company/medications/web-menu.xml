@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="Directories" insertBefore="administration" description="mainMsg://directories">
+        <item screen="medications_CountryOfRegistration.browse" description="mainMsg://countryRegister"/>
+        <item screen="medications_MedicationEntity.browse" description="mainMsg://medications"/>
+    </menu>
+    <item screen="medications_RegistrationStatus.browse" insertBefore="administration"
+          description="mainMsg://registerStatus"/>
+</menu-config>

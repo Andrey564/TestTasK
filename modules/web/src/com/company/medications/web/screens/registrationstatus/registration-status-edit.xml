@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://editorCaption"
+        focusComponent="form"
+        messagesPack="com.company.medications.web.screens.registrationstatus">
+    <data>
+        <instance id="registrationStatusDc"
+                  class="com.company.medications.entity.RegistrationStatus"
+                  view="registrationStatus-view_3">
+            <loader/>
+        </instance>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="editActions" spacing="true">
+        <form id="form" dataContainer="registrationStatusDc">
+            <column width="500px">
+                <searchPickerField property="medicinalProduct"
+                                   id="medicinalProduct"/>
+                <searchPickerField property="country"
+                                   id="country"/>
+                <textField id="ruNumberField" property="ruNumber"/>
+                <dateField id="ruDateField" property="ruDate"/>
+                <lookupField id="statusField" property="status"/>
+                <textArea id="indicationForUseField" property="indicationForUse" rows="5"/>
+                <textArea id="sideEffectField" property="sideEffect" rows="5"/>
+                <upload id="file" property="file" showFileName="true" showClearButton="true"
+                        uploadButtonCaption="&#1047;&#1072;&#1075;&#1088;&#1091;&#1079;&#1080;&#1090;&#1100;"/>
+            </column>
+        </form>
+        <hbox id="editActions" spacing="true">
+            <button action="windowCommitAndClose"/>
+            <button action="windowClose"/>
+        </hbox>
+    </layout>
+</window>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <title>REST клиент</title>
+</head>
+<body>
+<div class="autorisition">
+    <h1 style="margin-bottom: 50px;">Авторизация</h1>
+    <div class="form-group">
+        <label for="login">Логин:</label>
+        <input type="text" class="form-control" id="login">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Пароль:</label>
+        <input type="password" class="form-control" id="pwd">
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="login()">Отправить</button>
+</div>
+
+<div class="main container">
+    <div class="container mt-3">
+        <div class="header">
+            <h2>REST клиент</h2>
+            <p></p>
+        </div>
+        <br>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#get">Получить</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#create">Создать</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#update">Изменить</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#delete">Удалить</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="get" class="container tab-pane active"><br>
+                <h3>Получить</h3>
+                <p>Метод получения сущностей реализован через сервис</p>
+                <button class="btr btn-info btn-get">Получить</button>
+                <table class="out" id="out_get">
+                    <tr id="get_head">
+                        <th>Лекарственный препарат</th>
+                        <th>Форма выпуска</th>
+                        <th>ID сущности</th>
+                    </tr>
+                </table>
+            </div>
+            <div id="create" class="container tab-pane fade"><br>
+                <h3>Создать</h3>
+                <p>Создание сущности реализовано через сервис.</p><p> Так же, после создания появится пример создания средствами CUBA</p>
+                <div class="form-group">
+                    <label for="name">Лекарственный препарат:</label>
+                    <input type="text" class="form-control input_create" id="name" required>
+                    <label for="formRelease">Форма выпуска:</label>
+                    <input type="text" class="form-control input_create" id="formRelease">
+                    <label for="chiper">Шифр:</label>
+                    <input type="text" class="form-control input_create" id="chiper">
+                    <label for="ibd">IBD:</label>
+                    <input type="date" class="form-control input_create" id="ibd">
+                </div>
+                <button class="btr btn-primary btn-create">Создать</button>
+                <div class="out" id="out_add"></div>
+            </div>
+            <div id="update" class="container tab-pane fade"><br>
+                <h3>Изменить</h3>
+                <p>Изменить</p>
+                <label for="change">Введите id сущности:</label>
+                <input type="text" class="form-control input_change" id="change" required>
+                <form id="form-cange">
+                    <div class="form-group">
+                        <label for="change-name">Лекарственный препарат:</label>
+                        <input type="text" class="form-control" id="change-name" placeholder="Лекарственный препарат" name="medicationName">
+                    </div>
+                    <div class="form-group">
+                        <label for="change-fr">Форма реализации:</label>
+                        <input type="text" class="form-control" id="change-fr" placeholder="Форма реализации" name="formRelease">
+                    </div>
+                    <div class="form-group">
+                        <label for="change-sh">Шифр:</label>
+                        <input type="text" class="form-control" id="change-sh" placeholder="Шифр" name="cipher">
+                    </div>
+                    <div class="form-group">
+                        <label for="change-ibd">IBD:</label>
+                        <input type="date" class="form-control" id="change-ibd" placeholder="IBD" name="ibd">
+                    </div>
+                </form>
+                <button type="submit" class="btr btn-warning btn-update">Изменить</button><br/>
+                <div class="out" id="out_change"></div>
+            </div>
+            <div id="delete" class="container tab-pane fade"><br>
+                <h3>Удалить</h3>
+                <p>Удалить</p>
+                <label for="del">Введите id сущности:</label>
+                <input type="text" class="form-control input_del" id="del" required>
+                <br/>
+                <button class="btr btn-danger btn-delete">Удалить</button>
+                <div class="out" id="out_del"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

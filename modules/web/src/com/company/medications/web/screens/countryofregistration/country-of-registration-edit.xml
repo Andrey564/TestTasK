@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://editorCaption"
+        focusComponent="form"
+        messagesPack="com.company.medications.web.screens.countryofregistration">
+    <data>
+        <instance id="countryOfRegistrationDc"
+                  class="com.company.medications.entity.CountryOfRegistration"
+                  view="_local">
+            <loader/>
+        </instance>
+    </data>
+    <dialogMode height="600"
+                width="800" modal="false"/>
+    <layout expand="editActions" spacing="true">
+        <form id="form" dataContainer="countryOfRegistrationDc">
+            <column width="250px">
+                <textField id="countryNameField" property="countryName"/>
+                <textField id="countryNameEnField" property="countryNameEn"/>
+                <textField id="cipherField" property="cipher"/>
+            </column>
+        </form>
+        <hbox id="editActions" spacing="true">
+            <button action="windowCommitAndClose"/>
+            <button action="windowClose"/>
+        </hbox>
+    </layout>
+</window>

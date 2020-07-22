@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+
+    <view entity="medications_RegistrationStatus" name="registrationStatus-view" extends="_local">
+        <property name="medicinalProduct" view="_local"/>
+    </view>
+    <view entity="medications_RegistrationStatus" name="registrationStatus-view_1" extends="registrationStatus-view">
+        <property name="country" view="_local"/>
+        <property name="file" view="_minimal"/>
+    </view>
+    <view entity="medications_RegistrationStatus" name="registrationStatus-view_2" extends="_local">
+        <property name="medicinalProduct" view="_local"/>
+    </view>
+    <view entity="medications_RegistrationStatus" name="registrationStatus-view_3" extends="registrationStatus-view_2">
+        <property name="country" view="_local"/>
+        <property name="file" view="_minimal"/>
+    </view>
+    <view entity="medications_MedicationEntity" name="full" extends="_minimal">
+        <property name="medicationName"/>
+        <property name="formRelease"/>
+        <property name="cipher"/>
+        <property name="ibd"/>
+    </view>
+</views>

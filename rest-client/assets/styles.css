@@ -1,0 +1,27 @@
+body {
+    background-color: azure;
+}
+.header{
+    margin-top: 50px;
+    text-align: center;
+}
+.autorisition{
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	margin: auto;
+}
+.main{
+	display:none;
+}
+#get_head{
+    display:none;
+    text-align:center;
+}
+.out{
+    margin-top: 50px;
+}
+
+.example{
+    margin-top: 50px;
+}

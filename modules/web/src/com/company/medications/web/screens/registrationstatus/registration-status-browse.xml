@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://browseCaption"
+        focusComponent="registrationStatusesTable"
+        messagesPack="com.company.medications.web.screens.registrationstatus">
+    <data readOnly="true">
+        <collection id="registrationStatusesDc"
+                    class="com.company.medications.entity.RegistrationStatus"
+                    view="registrationStatus-view_1">
+            <loader id="registrationStatusesDl">
+                <query>
+                    <![CDATA[select e from medications_RegistrationStatus e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="registrationStatusesTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="registrationStatusesTable"
+                dataLoader="registrationStatusesDl">
+            <properties include=".*"/>
+        </filter>
+        <dataGrid id="registrationStatusesTable"
+                  width="100%"
+                  dataContainer="registrationStatusesDc" editorEnabled="true" selectionMode="MULTI"
+        >
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+                <action id="excel" type="excel"/>
+            </actions>
+            <columns>
+                <column property="medicinalProduct" id="medicinalProduct"/>
+                <column property="country" id="country"/>
+                <column property="medicinalProduct.formRelease" id="formRelease"
+                        caption="mainMsg://formRelaese" editable="false"/>
+                <column property="ruNumber" id="ruNumber"/>
+                <column property="ruDate" id="ruDate"/>
+                <column property="status" id="status"/>
+                <column property="indicationForUse" id="indicationForUse"/>
+                <column property="sideEffect" id="sideEffect"/>
+                <column property="file" id="file"/>
+            </columns>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="registrationStatusesTable.create"/>
+                <button id="editBtn" action="registrationStatusesTable.edit"/>
+                <button id="removeBtn" action="registrationStatusesTable.remove"/>
+                <button id="addBtn" invoke="onAddBtnClick"
+                        caption="&#1044;&#1086;&#1073;&#1072;&#1074;&#1080;&#1090;&#1100;"/>
+                <button id="excelBtn" action="registrationStatusesTable.excel"/>
+            </buttonsPanel>
+        </dataGrid>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

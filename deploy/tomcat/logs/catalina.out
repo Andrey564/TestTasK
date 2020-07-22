@@ -1,0 +1,170 @@
+Listening for transport dt_socket at address: 8787
+июл 20, 2020 1:16:42 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+июл 20, 2020 1:16:42 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+июл 20, 2020 1:16:42 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+июл 20, 2020 1:16:42 AM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [715] milliseconds
+июл 20, 2020 1:16:42 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+июл 20, 2020 1:16:42 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.27]
+июл 20, 2020 1:16:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+LogbackConfigurator INFO Setting up CUBA default logging configuration
+LogbackConfigurator INFO Found resource [file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/logback.xml]
+01:16:43.575 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - Initializing 'web' block, servlet context path: /app
+01:16:43.756 INFO  c.h.cuba.core.sys.AppComponents         - Using app components: [com.haulmont.cuba, com.haulmont.addon.restapi]
+01:16:43.796 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - Loading app properties from classpath:com/company/medications/web-app.properties
+01:16:43.800 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+01:16:43.813 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - cuba.webContextName: app
+01:16:43.924 INFO  c.h.c.c.s.e.EnvironmentChecksRunner     - Environment checks on web module completed successfully
+01:16:46.592 INFO  c.h.c.c.s.r.d.StaticServerSelector      - Server URLs: [http://localhost:8080/app-core/remoting]
+01:16:46.624 INFO  c.h.c.w.s.r.WebRemoteProxyBeanCreator   - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+01:16:46.626 INFO  c.h.c.w.s.r.WebRemoteProxyBeanCreator   - Configuring proxy beans for local service invocations: [restapi_ServerTokenStore]
+01:16:46.626 INFO  c.h.c.w.s.r.WebRemoteProxyBeanCreator   - Configuring proxy beans for local service invocations: [medications_RestControllerService]
+01:16:49.781 INFO  c.h.c.c.s.CubaThreadPoolTaskScheduler   - Initializing ExecutorService 'scheduler'
+01:16:50.270 INFO  c.h.cuba.core.sys.jmx.MBeanExporter     - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+01:16:50.473 INFO  c.h.cuba.core.sys.MetadataImpl          - Initializing metadata
+01:16:50.943 INFO  c.h.cuba.core.sys.MetadataImpl          - Metadata initialized in 470 ms
+01:16:51.130 INFO  c.h.a.r.a.r.RestAPIDispatcherServlet    - Initializing Servlet 'rest_api'
+01:16:57.323 INFO  c.h.a.r.a.r.RestAPIDispatcherServlet    - Completed initialization in 6192 ms
+01:16:57.327 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - AppContext started
+01:16:57.360 INFO  c.h.c.web.sys.CubaDispatcherServlet     - Initializing Servlet 'dispatcher'
+01:16:57.591 INFO  c.h.c.web.sys.CubaDispatcherServlet     - Completed initialization in 230 ms
+июл 20, 2020 1:16:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [15 012] ms
+июл 20, 2020 1:16:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+01:16:57.660 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - Initializing 'core' block, servlet context path: /app-core
+01:16:57.675 INFO  c.h.cuba.core.sys.AppComponents         - Using app components: [com.haulmont.cuba, com.haulmont.addon.restapi]
+01:16:58.028 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - Loading app properties from classpath:com/company/medications/app.properties
+01:16:58.029 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+01:16:58.031 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - cuba.webContextName: app-core
+01:16:58.037 INFO  c.h.cuba.core.sys.AppContextLoader      - DbmsType of the main database is set to postgres
+01:16:58.050 INFO  c.h.c.c.s.e.DataStoresCheck             - Checking connection to data store Main
+01:16:58.570 INFO  c.h.c.c.s.e.EnvironmentChecksRunner     - Environment checks on core module completed successfully
+01:16:58.649 INFO  c.h.c.c.s.p.PersistenceConfigProcessor  - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+01:17:00.301 INFO  com.zaxxer.hikari.HikariDataSource      - Connection Pool-Main - Starting...
+01:17:00.377 INFO  com.zaxxer.hikari.HikariDataSource      - Connection Pool-Main - Start completed.
+01:17:04.083 INFO  c.h.c.c.s.CubaThreadPoolTaskScheduler   - Initializing ExecutorService 'scheduler'
+01:17:04.233 INFO  c.h.c.c.s.CubaThreadPoolTaskScheduler   - Initializing ExecutorService 'restapi_scheduler'
+01:17:04.334 INFO  c.h.cuba.core.sys.jmx.MBeanExporter     - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+01:17:04.624 INFO  c.h.cuba.core.sys.jmx.MBeanExporter     - Registering beans for JMX exposure: [app-core.restapi:type=ServerTokenStore]
+01:17:04.637 INFO  c.h.cuba.core.sys.MetadataImpl          - Initializing metadata
+01:17:04.860 INFO  c.h.cuba.core.sys.MetadataImpl          - Metadata initialized in 223 ms
+01:17:06.121 INFO  c.h.cuba.core.app.ConfigStorage         - Loading DB-stored app properties cache
+01:17:06.702 INFO  c.h.c.s.a.r.PredefinedRoleDefinitionRepository- Initializing predefined role definitions
+01:17:06.825 INFO  c.h.c.s.a.AuthenticationManagerBean     - Logged in: 39076e65-4f81-8171-5808-04c3a5009472 [anonymous]
+01:17:06.862 INFO  c.h.c.s.a.AuthenticationManagerBean     - Logged in: a5b60b87-66c0-de03-ae01-31f9dcac87f2 [anonymous]
+01:17:06.863 INFO  c.h.c.c.s.AbstractWebAppContextLoader   - AppContext started
+01:17:06.871 INFO  c.h.c.c.sys.remoting.RemotingServlet    - Initializing Servlet 'remoting'
+01:17:06.910 INFO  c.h.c.c.s.r.RemoteServicesBeanCreator   - Configuring remote services
+01:17:07.136 WARN  c.h.cuba.core.jmx.StatisticsCounter     - Сonnection pool not found for statistics counting
+01:17:07.233 INFO  c.h.c.c.sys.remoting.RemotingServlet    - Completed initialization in 362 ms
+июл 20, 2020 1:17:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [9 625] ms
+июл 20, 2020 1:17:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+июл 20, 2020 1:17:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+июл 20, 2020 1:17:07 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [24 731] milliseconds
+01:17:08.120 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:17:08.609 INFO  c.h.c.s.a.AuthenticationManagerBean     - Logged in: 47b32549-f3cb-88a6-95b0-d80c6c6dcc51 [REST]
+01:17:08.871 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:17:08.940 INFO  c.h.a.r.a.auth.ClientProxyTokenStore    - REST API access token stored: [REST] ***-a13415e99687
+01:17:25.980 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:17:25.985 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+01:17:35.109 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:17:35.146 INFO  c.h.a.r.a.c.RestControllerExceptionHandler- RestAPIException: Service method not found, medications_RestControllerService.createEntity()
+01:17:40.145 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:17:40.147 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+01:17:44.801 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+fghghf
+01:28:37.055 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+fghghf
+01:28:45.270 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:28:45.274 INFO  c.h.a.r.a.c.RestControllerExceptionHandler- RestAPIException: Service method not found, medications_RestControllerService.createEntity()
+01:28:51.452 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:28:51.453 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+01:28:56.639 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:28:56.640 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+01:31:06.242 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:31:06.243 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+01:31:13.901 WARN  c.h.a.r.api.common.RestAuthUtils        - Locale ru_RU passed in the Accept-Language header is not supported by the application. It was ignored.
+01:31:13.904 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+июл 20, 2020 1:52:01 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+июл 20, 2020 1:52:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+июл 20, 2020 1:52:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-nio-8009"]
+июл 20, 2020 1:52:01 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Exception in thread "Atmosphere-Scheduler-52" java.lang.IllegalMonitorStateException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.signal(AbstractQueuedSynchronizer.java:1939)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Exception in thread "Atmosphere-Scheduler-71" java.lang.IllegalMonitorStateException
+	at java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:151)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261)
+	at java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:457)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1146)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:809)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [app] appears to have started a thread named [Atmosphere-Scheduler-72] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:836)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireQueued(AbstractQueuedSynchronizer.java:870)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1134)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+WARNING: The web application [app] appears to have started a thread named [Atmosphere-Scheduler-73] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:836)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireQueued(AbstractQueuedSynchronizer.java:870)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1129)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [app] created a ThreadLocal with key of type [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder] (value [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder@4ac8bbef]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=47b32549-f3cb-88a6-95b0-d80c6c6dcc51}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [app] created a ThreadLocal with key of type [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder] (value [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder@4ac8bbef]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=47b32549-f3cb-88a6-95b0-d80c6c6dcc51}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [app] created a ThreadLocal with key of type [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder] (value [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder@4ac8bbef]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=47b32549-f3cb-88a6-95b0-d80c6c6dcc51}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [app] created a ThreadLocal with key of type [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder] (value [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder@4ac8bbef]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=47b32549-f3cb-88a6-95b0-d80c6c6dcc51}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [app] created a ThreadLocal with key of type [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder] (value [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder@4ac8bbef]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=47b32549-f3cb-88a6-95b0-d80c6c6dcc51}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+июл 20, 2020 1:52:01 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [app] created a ThreadLocal with key of type [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder] (value [com.haulmont.cuba.web.sys.WebVaadinCompatibleSecurityContextHolder@4ac8bbef]) and a value of type [com.haulmont.cuba.core.sys.SecurityContext] (value [SecurityContext{sessionId=47b32549-f3cb-88a6-95b0-d80c6c6dcc51}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+июл 20, 2020 1:52:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+июл 20, 2020 1:52:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-nio-8009"]
+июл 20, 2020 1:52:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+июл 20, 2020 1:52:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-nio-8009"]

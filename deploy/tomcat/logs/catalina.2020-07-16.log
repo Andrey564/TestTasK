@@ -1,0 +1,143 @@
+16-Jul-2020 18:53:37.217 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 18:53:37.641 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 18:53:37.743 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 18:53:37.747 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [768] milliseconds
+16-Jul-2020 18:53:37.847 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 18:53:37.849 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 18:53:37.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 18:53:46.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 545] ms
+16-Jul-2020 18:53:46.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 18:53:54.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [8 568] ms
+16-Jul-2020 18:53:54.983 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 18:53:55.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 18:53:55.027 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17 278] milliseconds
+16-Jul-2020 19:07:02.778 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 19:07:03.152 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:07:03.182 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:07:03.191 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [658] milliseconds
+16-Jul-2020 19:07:03.248 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 19:07:03.249 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 19:07:03.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 19:07:11.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 025] ms
+16-Jul-2020 19:07:11.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 19:07:19.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [7 871] ms
+16-Jul-2020 19:07:19.163 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:07:19.198 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:07:19.228 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [16 035] milliseconds
+16-Jul-2020 19:08:22.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 19:08:22.871 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:08:22.906 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:08:22.910 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [656] milliseconds
+16-Jul-2020 19:08:22.966 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 19:08:22.968 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 19:08:22.982 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 19:08:31.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 144] ms
+16-Jul-2020 19:08:31.128 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 19:08:39.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [8 369] ms
+16-Jul-2020 19:08:39.504 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:08:39.525 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:08:39.533 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [16 621] milliseconds
+16-Jul-2020 19:12:09.935 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 19:12:10.305 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:12:10.339 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:12:10.343 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [646] milliseconds
+16-Jul-2020 19:12:10.398 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 19:12:10.400 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 19:12:10.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 19:12:18.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 332] ms
+16-Jul-2020 19:12:18.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 19:12:29.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [10 756] ms
+16-Jul-2020 19:12:29.512 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:12:29.532 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:12:29.575 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [19 230] milliseconds
+16-Jul-2020 19:17:24.003 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 19:17:24.374 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:17:24.406 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:17:24.410 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [671] milliseconds
+16-Jul-2020 19:17:24.463 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 19:17:24.464 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 19:17:24.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 19:17:32.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [7 541] ms
+16-Jul-2020 19:17:32.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 19:17:40.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [8 549] ms
+16-Jul-2020 19:17:40.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:17:40.590 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:17:40.604 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [16 192] milliseconds
+16-Jul-2020 19:37:54.708 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 19:37:55.086 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:37:55.145 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:37:55.150 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [706] milliseconds
+16-Jul-2020 19:37:55.208 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 19:37:55.209 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 19:37:55.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 19:38:03.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 529] ms
+16-Jul-2020 19:38:03.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 19:38:12.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [8 924] ms
+16-Jul-2020 19:38:12.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:38:12.709 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:38:12.742 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17 590] milliseconds
+16-Jul-2020 19:47:41.536 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 19:47:41.921 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:47:41.958 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:47:41.963 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [695] milliseconds
+16-Jul-2020 19:47:42.016 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 19:47:42.018 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 19:47:42.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 19:47:50.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 658] ms
+16-Jul-2020 19:47:50.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 19:47:59.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [9 237] ms
+16-Jul-2020 19:47:59.938 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 19:47:59.984 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 19:48:00.058 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18 093] milliseconds
+16-Jul-2020 23:12:12.560 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 23:12:12.964 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:12:13.045 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:12:13.059 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [772] milliseconds
+16-Jul-2020 23:12:13.134 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 23:12:13.135 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 23:12:13.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 23:12:22.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [9 149] ms
+16-Jul-2020 23:12:22.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 23:12:31.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [9 023] ms
+16-Jul-2020 23:12:31.332 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:12:31.381 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:12:31.411 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18 350] milliseconds
+16-Jul-2020 23:15:16.179 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 23:15:16.534 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:15:16.568 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:15:16.572 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [650] milliseconds
+16-Jul-2020 23:15:16.629 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 23:15:16.631 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 23:15:16.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 23:15:25.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 615] ms
+16-Jul-2020 23:15:25.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 23:15:34.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [8 807] ms
+16-Jul-2020 23:15:34.078 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:15:34.105 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:15:34.131 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17 558] milliseconds
+16-Jul-2020 23:19:42.165 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 23:19:42.544 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:19:42.578 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:19:42.583 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [677] milliseconds
+16-Jul-2020 23:19:42.639 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 23:19:42.641 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 23:19:42.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 23:19:51.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [9 249] ms
+16-Jul-2020 23:19:51.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 23:20:00.197 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [8 293] ms
+16-Jul-2020 23:20:00.204 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:20:00.225 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:20:00.237 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17 652] milliseconds
+16-Jul-2020 23:34:14.853 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Jul-2020 23:34:15.235 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:34:15.269 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:34:15.275 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [684] milliseconds
+16-Jul-2020 23:34:15.322 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Jul-2020 23:34:15.323 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.27]
+16-Jul-2020 23:34:15.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app]
+16-Jul-2020 23:34:24.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app] has finished in [8 799] ms
+16-Jul-2020 23:34:24.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core]
+16-Jul-2020 23:34:33.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lis/IdeaProjects/medications/deploy/tomcat/webapps/app-core] has finished in [9 160] ms
+16-Jul-2020 23:34:33.304 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Jul-2020 23:34:33.339 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Jul-2020 23:34:33.351 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18 074] milliseconds

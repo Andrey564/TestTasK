@@ -1,0 +1,244 @@
+20-Jul-2020 00:26:45.124 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:26:45.125 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:26:52.577 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 00:26:55.181 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 00:26:55.492 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:26:55.492 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:27:05.135 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 00:50:22.651 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:50:22.651 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:50:29.120 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 00:50:32.217 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 00:50:32.468 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:50:32.468 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:50:41.251 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 00:54:34.625 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:54:34.625 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:54:41.005 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 00:54:43.724 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 00:54:44.213 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:54:44.213 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:54:51.944 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 00:56:17.863 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:56:17.864 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:56:23.379 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 00:56:25.916 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 00:56:26.165 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 00:56:26.166 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 00:56:33.947 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 01:02:41.864 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:02:41.865 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:02:48.622 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 01:02:51.522 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 01:02:51.750 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:02:51.750 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:03:00.176 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 01:06:05.574 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:06:05.575 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:06:12.111 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 01:06:14.658 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 01:06:14.874 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:06:14.874 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:06:24.135 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 01:13:05.263 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:13:05.264 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:13:12.362 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 01:13:15.282 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 01:13:15.536 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:13:15.536 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:13:24.435 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 01:16:43.375 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:16:43.376 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:16:51.130 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 01:16:57.360 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 01:16:57.658 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:16:57.659 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:17:06.871 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 01:17:52.468 SEVERE [http-nio-8080-exec-12] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [rest_api] in context with path [/app] threw exception
+	org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the HTTP method "VIEW" was not included within the whitelist [HEAD, DELETE, POST, GET, OPTIONS, PATCH, PUT]
+		at org.springframework.security.web.firewall.StrictHttpFirewall.rejectForbiddenHttpMethod(StrictHttpFirewall.java:360)
+		at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:335)
+		at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+		at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+		at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+		at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+		at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+		at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+20-Jul-2020 01:29:00.243 SEVERE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [rest_api] in context with path [/app] threw exception
+	org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the HTTP method "LINK" was not included within the whitelist [HEAD, DELETE, POST, GET, OPTIONS, PATCH, PUT]
+		at org.springframework.security.web.firewall.StrictHttpFirewall.rejectForbiddenHttpMethod(StrictHttpFirewall.java:360)
+		at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:335)
+		at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+		at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+		at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+		at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+		at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+		at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+20-Jul-2020 01:29:12.661 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [rest_api] in context with path [/app] threw exception
+	org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the HTTP method "UNLOCK" was not included within the whitelist [HEAD, DELETE, POST, GET, OPTIONS, PATCH, PUT]
+		at org.springframework.security.web.firewall.StrictHttpFirewall.rejectForbiddenHttpMethod(StrictHttpFirewall.java:360)
+		at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:335)
+		at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+		at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+		at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+		at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+		at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+		at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+20-Jul-2020 01:31:02.635 SEVERE [http-nio-8080-exec-23] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [rest_api] in context with path [/app] threw exception
+	org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the HTTP method "UNLOCK" was not included within the whitelist [HEAD, DELETE, POST, GET, OPTIONS, PATCH, PUT]
+		at org.springframework.security.web.firewall.StrictHttpFirewall.rejectForbiddenHttpMethod(StrictHttpFirewall.java:360)
+		at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:335)
+		at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194)
+		at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+		at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+		at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+		at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+		at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+20-Jul-2020 01:52:01.674 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+20-Jul-2020 01:52:01.692 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+20-Jul-2020 01:52:01.758 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+20-Jul-2020 01:52:09.759 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:52:09.760 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:52:16.388 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 01:52:19.713 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 01:52:19.969 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 01:52:19.970 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 01:52:29.010 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 02:07:33.815 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 02:07:33.816 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 02:07:43.253 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 02:07:47.181 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 02:07:47.432 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 02:07:47.432 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 02:07:58.787 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 03:52:15.078 INFO [Thread-7] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+20-Jul-2020 03:52:15.125 INFO [Thread-7] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+20-Jul-2020 03:52:15.168 INFO [Thread-7] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+20-Jul-2020 20:40:10.385 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 20:40:10.392 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 20:40:20.023 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 20:40:24.576 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 20:40:24.926 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 20:40:24.926 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 20:40:35.838 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 20:51:20.262 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 20:51:20.263 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 20:51:28.448 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 20:51:33.986 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 20:51:34.589 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 20:51:34.589 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 20:51:45.910 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 23:18:33.760 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 23:18:33.761 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 23:18:41.911 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 23:18:46.359 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 23:18:46.956 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 23:18:46.956 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 23:19:00.181 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'
+20-Jul-2020 23:55:55.202 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 23:55:55.202 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 23:56:05.104 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RestAPIDispatcherServlet 'rest_api'
+20-Jul-2020 23:56:08.919 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring CubaDispatcherServlet 'dispatcher'
+20-Jul-2020 23:56:09.225 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+20-Jul-2020 23:56:09.225 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+20-Jul-2020 23:56:20.300 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring RemotingServlet 'remoting'

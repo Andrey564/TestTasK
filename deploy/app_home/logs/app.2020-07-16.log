@@ -1,0 +1,1061 @@
+2020-07-16 18:53:38.786 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 18:53:38.977 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 18:53:39.011 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 18:53:39.015 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 18:53:39.027 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 18:53:39.132 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 18:53:41.499 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 18:53:41.523 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 18:53:43.478 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 18:53:43.783 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 18:53:44.016 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 64 ms
+2020-07-16 18:53:44.026 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 18:53:44.382 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 356 ms
+2020-07-16 18:53:44.418 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 18:53:44.458 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 18:53:45.232 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 18:53:46.390 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1932 ms
+2020-07-16 18:53:46.457 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 18:53:46.468 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 18:53:46.479 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 18:53:46.480 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 18:53:46.482 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 18:53:46.487 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 18:53:46.499 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 18:53:46.983 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 18:53:47.063 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 18:53:49.025 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 18:53:49.103 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 18:53:52.248 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 18:53:52.398 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 18:53:52.644 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 18:53:52.828 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 184 ms
+2020-07-16 18:53:53.347 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 18:53:54.020 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 18:53:54.686 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: b395c3c7-d24e-6406-0e64-ee0eadd2bbcd [anonymous]
+2020-07-16 18:53:54.687 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id b395c3c7-d24e-6406-0e64-ee0eadd2bbcd
+2020-07-16 18:53:54.688 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 18:53:54.692 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 18:53:54.720 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 18:53:54.843 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 18:53:54.898 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 18:53:54.975 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 283 ms
+2020-07-16 18:53:55.190 WARN  [http-nio-8080-exec-6] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 18:53:56.462 DEBUG [http-nio-8080-exec-13] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 18:53:56.475 DEBUG [http-nio-8080-exec-13] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 18:53:56.635 DEBUG [http-nio-8080-exec-13] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 18:53:56.762 DEBUG [http-nio-8080-exec-13] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id b395c3c7-d24e-6406-0e64-ee0eadd2bbcd
+2020-07-16 18:53:56.782 DEBUG [http-nio-8080-exec-13/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 18:53:56.783 DEBUG [http-nio-8080-exec-13/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 18:53:56.868 INFO  [http-nio-8080-exec-13/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 63 ms
+2020-07-16 18:53:57.927 DEBUG [http-nio-8080-exec-13/app-core/anonymous] com.haulmont.cuba.security.app.UserManagementServiceBean - Remember me token 'OGO9uxqj60Wo49Oj1skiGzCG447AoiC8' is not found. Consider it as not valid
+2020-07-16 18:54:00.198 INFO  [http-nio-8080-exec-15/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 18:54:00.244 INFO  [http-nio-8080-exec-15/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: f8657ed1-771e-0735-15f4-f350eb1781fe [admin]
+2020-07-16 18:54:00.265 DEBUG [http-nio-8080-exec-15/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 18:54:00.266 DEBUG [http-nio-8080-exec-15/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 18:54:00.271 DEBUG [http-nio-8080-exec-15/app/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-07-16 18:54:00.272 DEBUG [http-nio-8080-exec-15/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@46b32fdd, timeout=1800sec, UserSession=f8657ed1-771e-0735-15f4-f350eb1781fe [admin]
+2020-07-16 18:54:00.591 INFO  [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 18:54:00.619 DEBUG [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 18:54:00.682 DEBUG [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 18:54:04.491 INFO  [http-nio-8080-exec-1/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 18:54:04.527 INFO  [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 18:54:04.734 DEBUG [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 18:54:04.796 DEBUG [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 18:54:14.456 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 7ce2e9e1-d46a-781e-730c-8351069dae7c [admin]
+2020-07-16 18:55:09.601 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.company.medications.entity.MedicationEntity-1b224e62-24f1-fc09-6ead-074f5c71c7a1 [new]], removeInstances=[]
+2020-07-16 18:55:09.613 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@74278fff
+2020-07-16 18:55:09.614 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@74278fff updates entities: [com.company.medications.entity.MedicationEntity-1b224e62-24f1-fc09-6ead-074f5c71c7a1 [new,managed]]
+2020-07-16 18:55:09.618 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2020-07-16 18:55:09.630 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2020-07-16 18:55:09.696 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@74278fff
+2020-07-16 18:55:13.982 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=medications_MedicationEntity, id=1b224e62-24f1-fc09-6ead-074f5c71c7a1, view=com.company.medications.entity.MedicationEntity/_local
+2020-07-16 19:07:04.139 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 19:07:04.224 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:07:04.308 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 19:07:04.311 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:07:04.323 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 19:07:04.460 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 19:07:06.871 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 19:07:06.898 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 19:07:09.035 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:07:09.400 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 19:07:09.580 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 43 ms
+2020-07-16 19:07:09.590 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:07:09.959 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 369 ms
+2020-07-16 19:07:09.996 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:07:10.033 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 19:07:10.548 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 19:07:11.272 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1239 ms
+2020-07-16 19:07:11.334 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 19:07:11.344 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:07:11.355 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 19:07:11.356 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:07:11.358 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 19:07:11.364 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 19:07:11.375 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 19:07:11.848 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 19:07:11.928 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 19:07:13.769 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 19:07:13.842 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 19:07:16.608 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:07:16.738 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 19:07:17.010 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:07:17.181 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 171 ms
+2020-07-16 19:07:17.675 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 19:07:18.234 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 19:07:18.863 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 3b781a05-23e6-b06d-c685-136e5b94a610 [anonymous]
+2020-07-16 19:07:18.864 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 3b781a05-23e6-b06d-c685-136e5b94a610
+2020-07-16 19:07:18.876 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:07:18.882 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 19:07:18.909 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 19:07:19.004 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:07:19.056 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 19:07:19.157 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 275 ms
+2020-07-16 19:07:19.364 WARN  [http-nio-8080-exec-5] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 19:07:21.701 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 19:07:21.717 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 19:07:21.936 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 19:07:22.148 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 3b781a05-23e6-b06d-c685-136e5b94a610
+2020-07-16 19:07:22.174 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 19:07:22.175 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:07:22.258 INFO  [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 64 ms
+2020-07-16 19:07:26.378 INFO  [http-nio-8080-exec-7/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 19:07:26.418 INFO  [http-nio-8080-exec-7/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 4ed4ab42-41ae-cd19-b072-1b09f7186255 [admin]
+2020-07-16 19:07:26.436 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 19:07:26.437 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:07:26.442 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-07-16 19:07:26.444 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@642f043, timeout=1800sec, UserSession=4ed4ab42-41ae-cd19-b072-1b09f7186255 [admin]
+2020-07-16 19:07:26.780 INFO  [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:07:26.820 DEBUG [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 19:07:26.965 DEBUG [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:07:30.072 ERROR [http-nio-8080-exec-12/app/admin] com.haulmont.cuba.web.log.AppLog - Exception in com.haulmont.cuba.web.widgets.CubaSideMenu: 
+com.vaadin.server.ServerRpcManager$RpcInvocationException: Unable to invoke method menuItemTriggered in com.haulmont.cuba.web.widgets.client.verticalmenu.CubaSideMenuServerRpc
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:157) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:115) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocation(ServerRpcHandler.java:431) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:396) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:260) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:82) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1578) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:425) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:329) [cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:215) [cuba-web-7.2.6.jar:7.2.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93) [cuba-web-7.2.6.jar:7.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [catalina.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.27]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-coyote.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-coyote.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-coyote.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_251]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:153) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	... 38 common frames omitted
+Caused by: com.haulmont.cuba.core.global.DevelopmentException: Template is not found /com/company/medications/web/screens/medicationentity/medication-entity-browse.xml
+	at com.haulmont.cuba.gui.xml.layout.ScreenXmlLoader.loadTemplate(ScreenXmlLoader.java:75) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.gui.xml.layout.ScreenXmlLoader.load(ScreenXmlLoader.java:65) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.loadScreenXml(WebScreens.java:335) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.createScreen(WebScreens.java:189) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.create(WebScreens.java:175) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.gui.config.MenuItemCommands$ScreenCommand.run(MenuItemCommands.java:319) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.SideMenuBuilder$MenuCommandExecutor.accept(SideMenuBuilder.java:264) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.SideMenuBuilder$MenuCommandExecutor.accept(SideMenuBuilder.java:249) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.gui.components.mainwindow.WebSideMenu$MenuItemImpl.menuSelected(WebSideMenu.java:576) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.widgets.CubaSideMenu$1.menuItemTriggered(CubaSideMenu.java:90) ~[cuba-web-widgets-7.2.6.jar:na]
+	... 43 common frames omitted
+2020-07-16 19:08:23.921 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 19:08:24.010 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:08:24.107 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 19:08:24.112 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:08:24.125 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 19:08:24.236 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 19:08:26.881 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 19:08:26.913 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 19:08:29.016 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:08:29.312 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 19:08:29.511 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 48 ms
+2020-07-16 19:08:29.521 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:08:29.899 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 378 ms
+2020-07-16 19:08:29.940 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:08:29.979 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 19:08:30.440 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 19:08:31.111 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1132 ms
+2020-07-16 19:08:31.178 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 19:08:31.190 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:08:31.201 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 19:08:31.202 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:08:31.204 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 19:08:31.209 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 19:08:31.221 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 19:08:31.692 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 19:08:31.812 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 19:08:33.635 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 19:08:33.710 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 19:08:36.931 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:08:37.085 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 19:08:37.357 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:08:37.592 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 234 ms
+2020-07-16 19:08:38.065 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 19:08:38.669 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 19:08:39.221 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 934ba539-7975-1b41-669b-daa712b39a2d [anonymous]
+2020-07-16 19:08:39.222 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 934ba539-7975-1b41-669b-daa712b39a2d
+2020-07-16 19:08:39.223 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:08:39.227 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 19:08:39.256 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 19:08:39.354 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:08:39.393 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 19:08:39.494 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 267 ms
+2020-07-16 19:08:39.678 WARN  [http-nio-8080-exec-12] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 19:08:40.573 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 19:08:40.584 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 19:08:40.735 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 19:08:40.937 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 934ba539-7975-1b41-669b-daa712b39a2d
+2020-07-16 19:08:40.962 DEBUG [http-nio-8080-exec-20/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 19:08:40.963 DEBUG [http-nio-8080-exec-20/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:08:41.022 INFO  [http-nio-8080-exec-20/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 46 ms
+2020-07-16 19:08:43.633 INFO  [http-nio-8080-exec-13/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 19:08:43.676 INFO  [http-nio-8080-exec-13/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 1cd0aa99-3e45-8456-5e36-a71468e1612f [admin]
+2020-07-16 19:08:43.694 DEBUG [http-nio-8080-exec-13/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 19:08:43.698 DEBUG [http-nio-8080-exec-13/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:08:43.704 DEBUG [http-nio-8080-exec-13/app/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-07-16 19:08:43.707 DEBUG [http-nio-8080-exec-13/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@498262c9, timeout=1800sec, UserSession=1cd0aa99-3e45-8456-5e36-a71468e1612f [admin]
+2020-07-16 19:08:43.993 INFO  [http-nio-8080-exec-13/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:08:44.028 DEBUG [http-nio-8080-exec-13/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 19:08:44.094 DEBUG [http-nio-8080-exec-13/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:08:46.799 ERROR [http-nio-8080-exec-3/app/admin] com.haulmont.cuba.web.log.AppLog - Exception in com.haulmont.cuba.web.widgets.CubaSideMenu: 
+com.vaadin.server.ServerRpcManager$RpcInvocationException: Unable to invoke method menuItemTriggered in com.haulmont.cuba.web.widgets.client.verticalmenu.CubaSideMenuServerRpc
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:157) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:115) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocation(ServerRpcHandler.java:431) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:396) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:260) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:82) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1578) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:425) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:329) [cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:215) [cuba-web-7.2.6.jar:7.2.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93) [cuba-web-7.2.6.jar:7.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [catalina.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.27]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-coyote.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-coyote.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-coyote.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_251]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:153) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	... 38 common frames omitted
+Caused by: com.haulmont.cuba.core.global.DevelopmentException: Template is not found /com/company/medications/web/screens/medicationentity/medication-entity-browse.xml
+	at com.haulmont.cuba.gui.xml.layout.ScreenXmlLoader.loadTemplate(ScreenXmlLoader.java:75) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.gui.xml.layout.ScreenXmlLoader.load(ScreenXmlLoader.java:65) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.loadScreenXml(WebScreens.java:335) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.createScreen(WebScreens.java:189) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.create(WebScreens.java:175) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.gui.config.MenuItemCommands$ScreenCommand.run(MenuItemCommands.java:319) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.SideMenuBuilder$MenuCommandExecutor.accept(SideMenuBuilder.java:264) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.SideMenuBuilder$MenuCommandExecutor.accept(SideMenuBuilder.java:249) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.gui.components.mainwindow.WebSideMenu$MenuItemImpl.menuSelected(WebSideMenu.java:576) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.widgets.CubaSideMenu$1.menuItemTriggered(CubaSideMenu.java:90) ~[cuba-web-widgets-7.2.6.jar:na]
+	... 43 common frames omitted
+2020-07-16 19:09:00.400 INFO  [http-nio-8080-exec-2/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:09:00.435 INFO  [http-nio-8080-exec-2/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 19:09:00.736 DEBUG [http-nio-8080-exec-2/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sys$JmxInstance, view=com.haulmont.cuba.core.entity.JmxInstance/_local, query=Query{queryString='select jmx from sys$JmxInstance jmx', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:09:09.932 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:09:10.039 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Presentation, view=com.haulmont.cuba.security.entity.Presentation/app, query=Query{queryString='select p from sec$Presentation p where p.componentId = :component and (p.user is null or p.user.id = :userId)', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:09:10.491 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$User, view=com.haulmont.cuba.security.entity.User/user.browse, query=Query{queryString=' select u from sec$User u ', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:09:21.528 ERROR [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.log.AppLog - Exception in com.haulmont.cuba.web.widgets.CubaSideMenu: 
+com.vaadin.server.ServerRpcManager$RpcInvocationException: Unable to invoke method menuItemTriggered in com.haulmont.cuba.web.widgets.client.verticalmenu.CubaSideMenuServerRpc
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:157) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:115) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocation(ServerRpcHandler.java:431) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleInvocations(ServerRpcHandler.java:396) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.ServerRpcHandler.handleRpc(ServerRpcHandler.java:260) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.communication.UidlRequestHandler.synchronizedHandleRequest(UidlRequestHandler.java:82) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:40) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1578) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:425) [vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:329) [cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:215) [cuba-web-7.2.6.jar:7.2.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [servlet-api.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) [spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93) [cuba-web-7.2.6.jar:7.2.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [catalina.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [catalina.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.27]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678) [catalina.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [catalina.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-coyote.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-coyote.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-coyote.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-coyote.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_251]
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_251]
+	at com.vaadin.server.ServerRpcManager.applyInvocation(ServerRpcManager.java:153) ~[vaadin-server-8.9.2-13-cuba.jar:8.9.2-13-cuba]
+	... 38 common frames omitted
+Caused by: com.haulmont.cuba.core.global.DevelopmentException: Template is not found /com/company/medications/web/screens/medicationentity/medication-entity-browse.xml
+	at com.haulmont.cuba.gui.xml.layout.ScreenXmlLoader.loadTemplate(ScreenXmlLoader.java:75) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.gui.xml.layout.ScreenXmlLoader.load(ScreenXmlLoader.java:65) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.loadScreenXml(WebScreens.java:335) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.createScreen(WebScreens.java:189) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.WebScreens.create(WebScreens.java:175) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.gui.config.MenuItemCommands$ScreenCommand.run(MenuItemCommands.java:319) ~[cuba-gui-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.SideMenuBuilder$MenuCommandExecutor.accept(SideMenuBuilder.java:264) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.sys.SideMenuBuilder$MenuCommandExecutor.accept(SideMenuBuilder.java:249) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.gui.components.mainwindow.WebSideMenu$MenuItemImpl.menuSelected(WebSideMenu.java:576) ~[cuba-web-7.2.6.jar:7.2.6]
+	at com.haulmont.cuba.web.widgets.CubaSideMenu$1.menuItemTriggered(CubaSideMenu.java:90) ~[cuba-web-widgets-7.2.6.jar:na]
+	... 43 common frames omitted
+2020-07-16 19:12:11.291 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 19:12:11.437 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:12:11.469 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 19:12:11.473 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:12:11.486 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 19:12:11.613 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 19:12:14.030 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 19:12:14.058 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 19:12:16.233 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:12:16.581 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 19:12:16.767 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 46 ms
+2020-07-16 19:12:16.778 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:12:17.274 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 496 ms
+2020-07-16 19:12:17.307 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:12:17.345 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 19:12:18.006 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 19:12:18.733 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1388 ms
+2020-07-16 19:12:18.797 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 19:12:18.808 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:12:18.818 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 19:12:18.819 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:12:18.821 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 19:12:18.827 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 19:12:18.839 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 19:12:19.348 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 19:12:19.529 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 19:12:22.455 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 19:12:22.580 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 19:12:26.594 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:12:26.790 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 19:12:27.091 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:12:27.320 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 229 ms
+2020-07-16 19:12:27.827 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 19:12:28.529 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 19:12:29.220 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 57d3eba0-44a1-008c-8679-902811feb1b2 [anonymous]
+2020-07-16 19:12:29.222 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 57d3eba0-44a1-008c-8679-902811feb1b2
+2020-07-16 19:12:29.223 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:12:29.227 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 19:12:29.258 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 19:12:29.289 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:12:29.355 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 19:12:29.504 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 277 ms
+2020-07-16 19:12:29.730 WARN  [http-nio-8080-exec-23] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 19:12:30.813 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 19:12:30.824 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 19:12:30.963 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 19:12:31.147 DEBUG [http-nio-8080-exec-14] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 57d3eba0-44a1-008c-8679-902811feb1b2
+2020-07-16 19:12:31.177 DEBUG [http-nio-8080-exec-14/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 19:12:31.178 DEBUG [http-nio-8080-exec-14/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:12:31.322 INFO  [http-nio-8080-exec-14/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 130 ms
+2020-07-16 19:12:33.950 INFO  [http-nio-8080-exec-23/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 19:12:33.986 INFO  [http-nio-8080-exec-23/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 69e92f6d-fa29-61ab-59dd-7e08201c5c48 [admin]
+2020-07-16 19:12:34.004 DEBUG [http-nio-8080-exec-23/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 19:12:34.004 DEBUG [http-nio-8080-exec-23/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:12:34.011 DEBUG [http-nio-8080-exec-23/app/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-07-16 19:12:34.067 DEBUG [http-nio-8080-exec-23/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@6339c718, timeout=1800sec, UserSession=69e92f6d-fa29-61ab-59dd-7e08201c5c48 [admin]
+2020-07-16 19:12:34.441 INFO  [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:12:34.483 DEBUG [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 19:12:34.541 DEBUG [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:12:35.538 INFO  [http-nio-8080-exec-23/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:12:35.604 INFO  [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 19:12:35.946 DEBUG [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:12:36.136 DEBUG [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Presentation, view=com.haulmont.cuba.security.entity.Presentation/app, query=Query{queryString='select p from sec$Presentation p where p.componentId = :component and (p.user is null or p.user.id = :userId)', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:12:37.065 DEBUG [http-nio-8080-exec-23/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$User, view=com.haulmont.cuba.security.entity.User/user.browse, query=Query{queryString=' select u from sec$User u ', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:12:40.215 DEBUG [http-nio-8080-exec-22/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:12:40.268 DEBUG [http-nio-8080-exec-22/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:12:47.376 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: a73d9db6-d2c0-c83e-9d45-f857adb0db39 [admin]
+2020-07-16 19:13:57.334 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:15:07.346 INFO  [cuba_web_scheduler-7] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:15:12.347 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:15:57.352 INFO  [cuba_web_scheduler-7] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:17:25.429 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 19:17:25.517 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:17:25.617 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 19:17:25.621 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:17:25.632 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 19:17:25.727 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 19:17:28.066 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 19:17:28.088 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 19:17:29.914 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:17:30.257 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 19:17:30.443 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 42 ms
+2020-07-16 19:17:30.454 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:17:30.826 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 372 ms
+2020-07-16 19:17:30.864 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:17:30.901 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 19:17:31.327 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 19:17:32.000 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1099 ms
+2020-07-16 19:17:32.068 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 19:17:32.080 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:17:32.091 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 19:17:32.092 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:17:32.094 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 19:17:32.099 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 19:17:32.111 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 19:17:32.596 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 19:17:32.689 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 19:17:34.503 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 19:17:34.562 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 19:17:37.920 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:17:38.100 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 19:17:38.369 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:17:38.619 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 250 ms
+2020-07-16 19:17:39.004 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 19:17:39.691 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 19:17:40.297 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 499b5eb8-f685-8df2-58b4-2438cd592c10 [anonymous]
+2020-07-16 19:17:40.298 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 499b5eb8-f685-8df2-58b4-2438cd592c10
+2020-07-16 19:17:40.299 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:17:40.303 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 19:17:40.332 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 19:17:40.367 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:17:40.396 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 19:17:40.564 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 261 ms
+2020-07-16 19:17:40.739 WARN  [http-nio-8080-exec-1] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 19:17:47.214 DEBUG [http-nio-8080-exec-12] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 19:17:47.227 DEBUG [http-nio-8080-exec-12] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 19:17:47.391 DEBUG [http-nio-8080-exec-12] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 19:17:47.601 DEBUG [http-nio-8080-exec-12] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 499b5eb8-f685-8df2-58b4-2438cd592c10
+2020-07-16 19:17:47.631 DEBUG [http-nio-8080-exec-12/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 19:17:47.632 DEBUG [http-nio-8080-exec-12/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:17:47.711 INFO  [http-nio-8080-exec-12/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 60 ms
+2020-07-16 19:17:50.873 INFO  [http-nio-8080-exec-9/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 19:17:50.913 INFO  [http-nio-8080-exec-9/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: e9ffdd4d-a31e-7568-423d-69b6e329ba2e [admin]
+2020-07-16 19:17:50.932 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 19:17:50.933 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:17:50.937 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-07-16 19:17:50.939 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@46d5895c, timeout=1800sec, UserSession=e9ffdd4d-a31e-7568-423d-69b6e329ba2e [admin]
+2020-07-16 19:17:51.280 INFO  [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:17:51.315 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 19:17:51.366 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:17:55.577 INFO  [http-nio-8080-exec-5/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:17:55.607 INFO  [http-nio-8080-exec-5/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 19:17:55.954 DEBUG [http-nio-8080-exec-5/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:17:56.064 DEBUG [http-nio-8080-exec-5/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:18:00.899 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: fcfbad96-30ed-6917-0b12-46b776526221 [admin]
+2020-07-16 19:18:17.840 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.company.medications.entity.CountryOfRegistration-d2ee1035-5b61-8153-8b1f-dcd77d688b86 [new]], removeInstances=[]
+2020-07-16 19:18:17.849 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@5401d761
+2020-07-16 19:18:17.849 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@5401d761 updates entities: [com.company.medications.entity.CountryOfRegistration-d2ee1035-5b61-8153-8b1f-dcd77d688b86 [new,managed]]
+2020-07-16 19:18:17.850 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2020-07-16 19:18:17.857 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2020-07-16 19:18:17.908 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@5401d761
+2020-07-16 19:18:20.796 DEBUG [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=medications_CountryOfRegistration, id=d2ee1035-5b61-8153-8b1f-dcd77d688b86, view=com.company.medications.entity.CountryOfRegistration/_local
+2020-07-16 19:27:38.365 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:27:49.067 DEBUG [http-nio-8080-exec-12/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 19:33:01.102 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_WindowConfig.loadScreenClass('com.company.medications.web.screens.countryofregistration.CountryOfRegistrationEdit')
+2020-07-16 19:33:01.137 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_MenuConfig.reset
+2020-07-16 19:33:01.138 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:33:01.142 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_WindowConfig.loadScreenClass('com.company.medications.web.screens.countryofregistration.CountryOfRegistrationBrowse')
+2020-07-16 19:35:01.163 INFO  [cuba_web_scheduler-4] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_MenuConfig.reset
+2020-07-16 19:35:06.164 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_MenuConfig.reset
+2020-07-16 19:36:51.175 INFO  [cuba_web_scheduler-5] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:37:38.365 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:37:49.096 DEBUG [http-nio-8080-exec-12/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 19:37:56.097 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 19:37:56.298 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:37:56.336 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 19:37:56.339 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:37:56.352 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 19:37:56.488 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 19:37:59.304 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 19:37:59.332 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 19:38:01.525 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:38:01.826 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 19:38:02.011 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 42 ms
+2020-07-16 19:38:02.021 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:38:02.353 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 331 ms
+2020-07-16 19:38:02.390 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:38:02.427 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 19:38:02.930 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 19:38:03.733 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1306 ms
+2020-07-16 19:38:03.803 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 19:38:03.815 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:38:03.825 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 19:38:03.826 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:38:03.828 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 19:38:03.834 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 19:38:03.843 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 19:38:04.306 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 19:38:04.390 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 19:38:06.371 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 19:38:06.440 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 19:38:09.906 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:38:10.101 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 19:38:10.373 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:38:10.631 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 257 ms
+2020-07-16 19:38:11.145 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 19:38:11.797 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 19:38:12.398 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: e5d64cec-815c-1f5e-1996-741577828b38 [anonymous]
+2020-07-16 19:38:12.399 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id e5d64cec-815c-1f5e-1996-741577828b38
+2020-07-16 19:38:12.400 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:38:12.404 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 19:38:12.441 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 19:38:12.584 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:38:12.625 WARN  [cuba_core_scheduler-3] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 19:38:12.673 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 269 ms
+2020-07-16 19:38:12.895 WARN  [http-nio-8080-exec-6] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 19:38:13.968 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 19:38:13.978 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 19:38:14.149 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 19:38:14.348 DEBUG [http-nio-8080-exec-3] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id e5d64cec-815c-1f5e-1996-741577828b38
+2020-07-16 19:38:14.368 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 19:38:14.369 DEBUG [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:38:14.433 INFO  [http-nio-8080-exec-3/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 50 ms
+2020-07-16 19:38:17.958 INFO  [http-nio-8080-exec-8/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 19:38:18.003 INFO  [http-nio-8080-exec-8/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 7373b31e-7d60-7cdb-1d51-c48f16333b61 [admin]
+2020-07-16 19:38:18.023 DEBUG [http-nio-8080-exec-8/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 19:38:18.024 DEBUG [http-nio-8080-exec-8/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:38:18.030 DEBUG [http-nio-8080-exec-8/app/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-07-16 19:38:18.033 DEBUG [http-nio-8080-exec-8/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@24dcbdde, timeout=1800sec, UserSession=7373b31e-7d60-7cdb-1d51-c48f16333b61 [admin]
+2020-07-16 19:38:18.354 INFO  [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:38:18.400 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 19:38:18.476 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:38:26.235 INFO  [http-nio-8080-exec-3/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:38:26.266 INFO  [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 19:38:26.555 DEBUG [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:38:26.625 DEBUG [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:38:30.180 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:38:30.217 DEBUG [http-nio-8080-exec-6/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:38:32.439 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: e3792996-cc28-a000-2248-df27a69e6361 [admin]
+2020-07-16 19:44:07.637 INFO  [cuba_web_scheduler-6] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_MenuConfig.reset
+2020-07-16 19:44:07.638 INFO  [cuba_web_scheduler-6] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:46:42.660 INFO  [cuba_web_scheduler-7] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:47:27.667 INFO  [cuba_web_scheduler-6] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 19:47:42.986 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 19:47:43.142 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:47:43.178 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 19:47:43.182 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:47:43.193 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 19:47:43.311 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 19:47:46.141 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 19:47:46.164 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 19:47:48.326 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:47:48.657 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 19:47:48.850 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 45 ms
+2020-07-16 19:47:48.862 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:47:49.264 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 402 ms
+2020-07-16 19:47:49.300 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:47:49.337 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 19:47:49.822 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 19:47:50.671 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1333 ms
+2020-07-16 19:47:50.745 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 19:47:50.757 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 19:47:50.768 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 19:47:50.769 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 19:47:50.771 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 19:47:50.777 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 19:47:50.788 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 19:47:51.283 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 19:47:51.406 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 19:47:53.333 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 19:47:53.395 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 19:47:56.909 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 19:47:57.090 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 19:47:57.366 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 19:47:57.588 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 222 ms
+2020-07-16 19:47:58.265 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 19:47:58.872 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 19:47:59.585 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: cd17f8c8-d664-ba0f-eb66-41f003fb44d3 [anonymous]
+2020-07-16 19:47:59.586 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id cd17f8c8-d664-ba0f-eb66-41f003fb44d3
+2020-07-16 19:47:59.587 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 19:47:59.591 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 19:47:59.620 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 19:47:59.764 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 19:47:59.838 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 19:47:59.921 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 330 ms
+2020-07-16 19:48:00.231 WARN  [http-nio-8080-exec-6] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 19:56:27.598 DEBUG [http-nio-8080-exec-11] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 19:56:27.608 DEBUG [http-nio-8080-exec-11] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 19:56:27.768 DEBUG [http-nio-8080-exec-11] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 19:56:27.970 DEBUG [http-nio-8080-exec-11] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id cd17f8c8-d664-ba0f-eb66-41f003fb44d3
+2020-07-16 19:56:27.993 DEBUG [http-nio-8080-exec-11/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 19:56:27.994 DEBUG [http-nio-8080-exec-11/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:56:28.076 INFO  [http-nio-8080-exec-11/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 63 ms
+2020-07-16 19:56:31.073 INFO  [http-nio-8080-exec-9/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 19:56:31.115 INFO  [http-nio-8080-exec-9/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 7e261709-2591-f154-21e1-1ab9a7f2aad9 [admin]
+2020-07-16 19:56:31.137 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 19:56:31.138 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 19:56:31.143 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-07-16 19:56:31.145 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@44337595, timeout=1800sec, UserSession=7e261709-2591-f154-21e1-1ab9a7f2aad9 [admin]
+2020-07-16 19:56:31.476 INFO  [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:56:31.509 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 19:56:31.568 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:56:38.884 INFO  [http-nio-8080-exec-2/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 19:56:38.924 INFO  [http-nio-8080-exec-2/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 19:56:39.126 DEBUG [http-nio-8080-exec-2/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:56:39.204 DEBUG [http-nio-8080-exec-2/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:56:40.376 DEBUG [http-nio-8080-exec-5/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 19:56:40.415 DEBUG [http-nio-8080-exec-5/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 19:56:49.349 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 5506ccb4-ffd2-df0b-a80f-70d6c6693d31 [admin]
+2020-07-16 19:57:57.363 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 20:06:29.490 DEBUG [http-nio-8080-exec-12/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 20:07:57.362 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 20:16:29.510 DEBUG [http-nio-8080-exec-11/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 20:17:57.362 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 20:26:29.530 DEBUG [http-nio-8080-exec-5/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 20:27:57.362 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 20:36:29.562 DEBUG [http-nio-8080-exec-4/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 20:37:57.362 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 20:46:29.586 DEBUG [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 20:47:57.362 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 20:56:29.605 DEBUG [http-nio-8080-exec-6/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 20:57:57.362 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 21:06:29.629 DEBUG [http-nio-8080-exec-10/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 21:07:57.362 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 21:16:29.646 DEBUG [http-nio-8080-exec-5/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 21:17:57.362 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 21:26:29.665 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 21:27:57.362 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 21:36:29.680 DEBUG [http-nio-8080-exec-18/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 21:37:57.362 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 21:46:29.699 DEBUG [http-nio-8080-exec-6/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 21:47:57.362 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 21:56:29.721 DEBUG [http-nio-8080-exec-19/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 21:57:57.362 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 22:06:29.739 DEBUG [http-nio-8080-exec-13/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 22:07:57.362 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 22:16:29.759 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 22:17:57.363 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 22:26:29.780 DEBUG [http-nio-8080-exec-8/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 22:27:57.363 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 22:36:29.795 DEBUG [http-nio-8080-exec-14/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 22:37:57.362 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 22:46:29.810 DEBUG [http-nio-8080-exec-17/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 22:47:57.362 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 22:56:29.827 DEBUG [http-nio-8080-exec-2/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 22:57:57.362 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:06:29.841 DEBUG [http-nio-8080-exec-1/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 23:07:57.362 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:11:55.374 INFO  [cuba_web_scheduler-2] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:12:14.107 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 23:12:14.245 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:12:14.281 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 23:12:14.285 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:12:14.297 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 23:12:14.418 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 23:12:17.196 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 23:12:17.232 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 23:12:19.599 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:12:20.061 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 23:12:20.382 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 54 ms
+2020-07-16 23:12:20.394 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:12:20.908 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 514 ms
+2020-07-16 23:12:20.948 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:12:20.987 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 23:12:21.486 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 23:12:22.282 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1295 ms
+2020-07-16 23:12:22.354 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 23:12:22.365 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:12:22.376 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 23:12:22.377 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:12:22.378 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 23:12:22.384 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 23:12:22.396 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 23:12:23.031 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 23:12:23.152 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 23:12:25.285 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 23:12:25.372 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 23:12:28.736 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:12:28.925 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 23:12:29.196 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:12:29.442 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 246 ms
+2020-07-16 23:12:29.846 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 23:12:30.453 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 23:12:31.068 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 15970423-27fe-116d-658e-ca1ef5db7ba7 [anonymous]
+2020-07-16 23:12:31.069 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 15970423-27fe-116d-658e-ca1ef5db7ba7
+2020-07-16 23:12:31.070 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:12:31.074 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 23:12:31.103 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 23:12:31.194 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:12:31.250 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 23:12:31.324 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 250 ms
+2020-07-16 23:12:31.574 WARN  [http-nio-8080-exec-17] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 23:12:32.506 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 23:12:32.523 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 23:12:32.666 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 23:12:32.841 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 15970423-27fe-116d-658e-ca1ef5db7ba7
+2020-07-16 23:12:32.864 DEBUG [http-nio-8080-exec-16/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 23:12:32.865 DEBUG [http-nio-8080-exec-16/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:12:32.949 INFO  [http-nio-8080-exec-16/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 61 ms
+2020-07-16 23:12:36.327 INFO  [http-nio-8080-exec-1/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 23:12:36.372 INFO  [http-nio-8080-exec-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 86e29dc2-6156-027f-893f-9f19872044c8 [admin]
+2020-07-16 23:12:36.396 DEBUG [http-nio-8080-exec-1/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 23:12:36.396 DEBUG [http-nio-8080-exec-1/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:12:36.403 DEBUG [http-nio-8080-exec-1/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@6bc2493c, timeout=1800sec, UserSession=86e29dc2-6156-027f-893f-9f19872044c8 [admin]
+2020-07-16 23:12:36.714 INFO  [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:12:36.745 DEBUG [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 23:12:36.798 DEBUG [http-nio-8080-exec-1/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:12:45.331 INFO  [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:12:45.442 INFO  [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 23:12:45.662 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:12:45.737 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:12:52.907 DEBUG [http-nio-8080-exec-17/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:12:52.946 DEBUG [http-nio-8080-exec-17/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:13:00.986 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 69b6f733-8aeb-4186-2d0a-96f466e8b935 [admin]
+2020-07-16 23:14:56.158 INFO  [cuba_web_scheduler-5] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_MenuConfig.reset
+2020-07-16 23:15:01.260 DEBUG [http-nio-8080-exec-6/app/admin] com.haulmont.cuba.web.AppUI - Ping middleware session
+2020-07-16 23:15:01.271 INFO  [http-nio-8080-exec-6/app/admin] com.haulmont.cuba.web.sys.navigation.navigationhandler.ScreenNavigationHandler - Unable to handle state with empty route 'NavigationState{root='main', stateMark='1'}'
+2020-07-16 23:15:17.575 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 23:15:17.749 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:15:17.798 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 23:15:17.802 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:15:17.814 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 23:15:17.919 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 23:15:20.404 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 23:15:20.437 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 23:15:22.979 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:15:23.351 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 23:15:23.545 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 45 ms
+2020-07-16 23:15:23.556 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:15:23.949 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 393 ms
+2020-07-16 23:15:24.006 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:15:24.042 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 23:15:24.494 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 23:15:25.248 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1206 ms
+2020-07-16 23:15:25.313 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 23:15:25.324 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:15:25.333 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 23:15:25.334 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:15:25.336 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 23:15:25.341 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 23:15:25.350 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 23:15:25.849 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 23:15:25.938 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 23:15:27.799 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 23:15:27.873 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 23:15:31.272 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:15:31.474 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 23:15:31.746 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:15:32.012 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 256 ms
+2020-07-16 23:15:32.486 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 23:15:33.151 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 23:15:33.800 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 67e68053-3bcf-aac1-6cba-739519adff27 [anonymous]
+2020-07-16 23:15:33.801 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 67e68053-3bcf-aac1-6cba-739519adff27
+2020-07-16 23:15:33.802 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:15:33.806 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 23:15:33.833 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 23:15:33.942 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:15:34.001 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 23:15:34.068 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 262 ms
+2020-07-16 23:15:34.290 WARN  [http-nio-8080-exec-12] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 23:15:35.274 DEBUG [http-nio-8080-exec-2] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 23:15:35.285 DEBUG [http-nio-8080-exec-2] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 23:15:35.418 DEBUG [http-nio-8080-exec-2] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 23:15:35.616 DEBUG [http-nio-8080-exec-2] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 67e68053-3bcf-aac1-6cba-739519adff27
+2020-07-16 23:15:35.643 DEBUG [http-nio-8080-exec-2/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 23:15:35.645 DEBUG [http-nio-8080-exec-2/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:15:35.722 INFO  [http-nio-8080-exec-2/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 63 ms
+2020-07-16 23:15:38.964 INFO  [http-nio-8080-exec-7/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 23:15:39.005 INFO  [http-nio-8080-exec-7/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: e1ccf003-9a33-62fe-a7e9-de331488d851 [admin]
+2020-07-16 23:15:39.027 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 23:15:39.028 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:15:39.033 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@3d85ae6e, timeout=1800sec, UserSession=e1ccf003-9a33-62fe-a7e9-de331488d851 [admin]
+2020-07-16 23:15:39.365 INFO  [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:15:39.396 DEBUG [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 23:15:39.463 DEBUG [http-nio-8080-exec-7/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:15:52.769 INFO  [http-nio-8080-exec-11/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:15:52.801 INFO  [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 23:15:53.092 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:15:53.159 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:15:55.180 DEBUG [http-nio-8080-exec-12/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:15:55.217 DEBUG [http-nio-8080-exec-12/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:16:04.040 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: b4f5940f-f2d5-b0af-f8f8-80966b77edc7 [admin]
+2020-07-16 23:17:24.127 INFO  [cuba_web_scheduler-2] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_MenuConfig.reset
+2020-07-16 23:17:24.128 INFO  [cuba_web_scheduler-2] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:18:09.139 INFO  [cuba_web_scheduler-6] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:18:54.144 INFO  [cuba_web_scheduler-5] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_MenuConfig.reset
+2020-07-16 23:18:54.145 INFO  [cuba_web_scheduler-5] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:19:34.149 INFO  [cuba_web_scheduler-4] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:19:43.540 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 23:19:43.632 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:19:43.722 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 23:19:43.726 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:19:43.739 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 23:19:43.872 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 23:19:46.487 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 23:19:46.555 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 23:19:49.293 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:19:49.632 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 23:19:49.830 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 47 ms
+2020-07-16 23:19:49.843 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:19:50.317 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 473 ms
+2020-07-16 23:19:50.368 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:19:50.450 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 23:19:51.041 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 23:19:51.888 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1438 ms
+2020-07-16 23:19:51.956 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 23:19:51.968 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:19:51.979 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 23:19:51.980 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:19:51.982 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 23:19:51.988 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 23:19:52.000 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 23:19:52.452 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 23:19:52.542 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 23:19:54.360 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 23:19:54.423 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 23:19:57.632 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:19:57.764 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 23:19:57.997 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:19:58.253 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 256 ms
+2020-07-16 23:19:58.645 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 23:19:59.296 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 23:19:59.909 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: acfc6350-6c8d-258e-16d6-833538d4f399 [anonymous]
+2020-07-16 23:19:59.910 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id acfc6350-6c8d-258e-16d6-833538d4f399
+2020-07-16 23:19:59.910 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:19:59.914 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 23:19:59.942 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 23:19:59.997 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:20:00.035 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 23:20:00.195 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 281 ms
+2020-07-16 23:20:00.413 WARN  [http-nio-8080-exec-3] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 23:20:01.433 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 23:20:01.445 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 23:20:01.590 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 23:20:01.780 DEBUG [http-nio-8080-exec-16] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id acfc6350-6c8d-258e-16d6-833538d4f399
+2020-07-16 23:20:01.814 DEBUG [http-nio-8080-exec-16/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 23:20:01.816 DEBUG [http-nio-8080-exec-16/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:20:01.892 INFO  [http-nio-8080-exec-16/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 61 ms
+2020-07-16 23:20:04.591 INFO  [http-nio-8080-exec-3/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 23:20:04.630 INFO  [http-nio-8080-exec-3/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 41c6b263-df33-679e-bc51-f6e6565fed74 [admin]
+2020-07-16 23:20:04.649 DEBUG [http-nio-8080-exec-3/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 23:20:04.649 DEBUG [http-nio-8080-exec-3/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:20:04.656 DEBUG [http-nio-8080-exec-3/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@10c46139, timeout=1800sec, UserSession=41c6b263-df33-679e-bc51-f6e6565fed74 [admin]
+2020-07-16 23:20:04.946 INFO  [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:20:04.978 DEBUG [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 23:20:05.027 DEBUG [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:20:10.498 INFO  [http-nio-8080-exec-14/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:20:10.529 INFO  [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 23:20:10.761 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:20:10.848 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:20:13.342 DEBUG [http-nio-8080-exec-16/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:20:13.380 DEBUG [http-nio-8080-exec-16/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:20:20.405 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 4f2a69b0-7281-7ccb-f1da-9f6c8c4ce434 [admin]
+2020-07-16 23:29:57.990 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:30:03.208 DEBUG [http-nio-8080-exec-7/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 23:32:35.462 INFO  [cuba_web_scheduler-3] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:32:55.468 INFO  [cuba_web_scheduler-10] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:33:20.471 INFO  [cuba_web_scheduler-10] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:33:45.474 INFO  [cuba_web_scheduler-5] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:33:55.475 INFO  [cuba_web_scheduler-6] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:34:05.476 INFO  [cuba_web_scheduler-1] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:34:16.257 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2020-07-16 23:34:16.370 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:34:16.468 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/web-app.properties
+2020-07-16 23:34:16.472 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:34:16.484 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2020-07-16 23:34:16.585 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-07-16 23:34:18.962 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2020-07-16 23:34:18.992 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-07-16 23:34:21.581 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:34:21.941 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2020-07-16 23:34:22.139 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 42 ms
+2020-07-16 23:34:22.149 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:34:22.512 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 363 ms
+2020-07-16 23:34:22.546 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:34:22.578 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-07-16 23:34:23.068 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-07-16 23:34:24.118 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 1539 ms
+2020-07-16 23:34:24.188 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2020-07-16 23:34:24.200 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2020-07-16 23:34:24.210 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/medications/app.properties
+2020-07-16 23:34:24.211 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:/home/lis/IdeaProjects/medications/deploy/tomcat/../app_home/local.app.properties
+2020-07-16 23:34:24.213 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2020-07-16 23:34:24.219 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-07-16 23:34:24.230 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-07-16 23:34:24.700 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-07-16 23:34:24.791 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file /home/lis/IdeaProjects/medications/deploy/app_home/app-core/work/persistence.xml
+2020-07-16 23:34:26.708 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-07-16 23:34:26.816 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-07-16 23:34:30.727 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-07-16 23:34:30.890 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app-core.cuba:type=PersistenceManager, app-core.cuba:type=ConfigStorage, app-core.cuba:type=UserSessions, app-core.cuba:type=UniqueNumbers, app-core.cuba:type=Emailer, app-core.cuba:type=EntityLog, app-core.cuba:type=FileStorage, app-core.cuba:type=LockManager, app-core.cuba:type=CachingFacade, app-core.cuba:type=ClusterManager, app-core.cuba:type=ScriptingManager, app-core.cuba:type=ServerInfo, app-core.cuba:type=Scheduling, app-core.cuba:type=PasswordEncryptionSupport, app-core.cuba:type=JmxNodeIdentifier, app-core.cuba:type=JmxLogControl, app-core.cuba:type=ClassLoaderManager, app-core.cuba:type=StatisticsCounter, app-core.cuba:type=BruteForceProtection, app-core.cuba:type=QueryCacheSupport]
+2020-07-16 23:34:31.159 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-07-16 23:34:31.433 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 274 ms
+2020-07-16 23:34:31.883 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-07-16 23:34:32.544 INFO  [main/app-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-07-16 23:34:33.024 INFO  [main/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 99b5c30a-86a4-3755-3f1a-64aa8fcfca4e [anonymous]
+2020-07-16 23:34:33.025 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 99b5c30a-86a4-3755-3f1a-64aa8fcfca4e
+2020-07-16 23:34:33.026 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-07-16 23:34:33.029 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-07-16 23:34:33.057 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-07-16 23:34:33.183 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:34:33.248 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Сonnection pool not found for statistics counting
+2020-07-16 23:34:33.295 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 266 ms
+2020-07-16 23:34:33.537 WARN  [http-nio-8080-exec-13] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-07-16 23:34:34.482 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.web.App - Initializing application
+2020-07-16 23:34:34.493 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-07-16 23:34:34.636 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-07-16 23:34:34.854 DEBUG [http-nio-8080-exec-20] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id 99b5c30a-86a4-3755-3f1a-64aa8fcfca4e
+2020-07-16 23:34:34.878 DEBUG [http-nio-8080-exec-20/app/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-07-16 23:34:34.879 DEBUG [http-nio-8080-exec-20/app/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:34:34.949 INFO  [http-nio-8080-exec-20/app/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 56 ms
+2020-07-16 23:35:07.715 INFO  [http-nio-8080-exec-19/app-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-07-16 23:35:07.752 INFO  [http-nio-8080-exec-19/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 5a8be31a-d1f6-4e5d-bc40-2fedbcd3d609 [admin]
+2020-07-16 23:35:07.772 DEBUG [http-nio-8080-exec-19/app/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-07-16 23:35:07.773 DEBUG [http-nio-8080-exec-19/app/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-07-16 23:35:07.779 DEBUG [http-nio-8080-exec-19/app/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=org.apache.catalina.session.StandardSessionFacade@3717d931, timeout=1800sec, UserSession=5a8be31a-d1f6-4e5d-bc40-2fedbcd3d609 [admin]
+2020-07-16 23:35:08.031 INFO  [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:35:08.053 DEBUG [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-07-16 23:35:08.093 DEBUG [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:35:18.262 INFO  [http-nio-8080-exec-9/app/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-07-16 23:35:18.294 INFO  [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-07-16 23:35:18.572 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:35:18.674 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:35:23.503 DEBUG [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:35:23.539 DEBUG [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:35:32.581 INFO  [ClientCacheManager-pool-2-thread-1/app-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: e467a3fd-d01e-c80a-2166-7508b9edf331 [admin]
+2020-07-16 23:35:36.839 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:35:36.874 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2020-07-16 23:35:36.881 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2020-07-16 23:35:36.923 DEBUG [http-nio-8080-exec-9/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:35:39.272 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:35:39.330 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_MedicationEntity, view=com.company.medications.entity.MedicationEntity/_local, query=Query{queryString='select e from medications_MedicationEntity e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:35:40.654 DEBUG [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-07-16 23:35:40.680 DEBUG [http-nio-8080-exec-15/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:35:43.866 DEBUG [http-nio-8080-exec-20/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:35:59.169 DEBUG [http-nio-8080-exec-21/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:10.329 DEBUG [http-nio-8080-exec-4/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:10.422 DEBUG [http-nio-8080-exec-19/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:16.195 DEBUG [http-nio-8080-exec-14/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:16.269 DEBUG [http-nio-8080-exec-10/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:23.343 DEBUG [http-nio-8080-exec-8/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:23.411 DEBUG [http-nio-8080-exec-11/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:29.102 DEBUG [http-nio-8080-exec-21/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:36:29.206 DEBUG [http-nio-8080-exec-3/app-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=medications_CountryOfRegistration, view=com.company.medications.entity.CountryOfRegistration/_local, query=Query{queryString='select e from medications_CountryOfRegistration e', condition=([where: e.countryName like :filter_countryName56847 ESCAPE '\' ]), sort=null, firstResult=0, maxResults=50}, max=50
+2020-07-16 23:43:17.748 INFO  [cuba_web_scheduler-5] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache
+2020-07-16 23:44:31.154 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:44:36.410 DEBUG [http-nio-8080-exec-15/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 23:54:31.154 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-07-16 23:54:36.437 DEBUG [http-nio-8080-exec-4/app/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-07-16 23:59:42.849 INFO  [cuba_web_scheduler-7] com.haulmont.cuba.core.sys.TriggerFilesProcessor - Calling cuba_Messages.clearCache

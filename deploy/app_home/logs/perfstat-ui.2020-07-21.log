@@ -1,0 +1,371 @@
+Performance Statistics   2020-07-20 23:58:00 - 2020-07-21 00:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:00:00 - 2020-07-21 00:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:04:00 - 2020-07-21 00:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+login#afterShow                                          1,5           0           3         1,5           2
+login#beforeShow                                         9,0           0          18         9,0           2
+login#create                                           804,0         172        1436       632,0           2
+login#init                                              88,0           4         172        84,0           2
+login#inject                                           170,0           1         339       169,0           2
+login#load                                            2822,5         673        4972      2149,5           2
+login#uiPermissions                                      3,0           0           6         3,0           2
+login#xml                                               34,5           3          66        31,5           2
+
+Performance Statistics   2020-07-21 00:06:00 - 2020-07-21 00:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+main#afterShow                                        7927,0        7927        7927         0,0           1
+main#beforeShow                                          0,0           0           0         0,0           1
+main#create                                            429,0         429         429         0,0           1
+main#init                                              131,0         131         131         0,0           1
+main#inject                                             99,0          99          99         0,0           1
+main#load                                             2170,0        2170        2170         0,0           1
+main#uiPermissions                                       0,0           0           0         0,0           1
+main#xml                                                26,0          26          26         0,0           1
+medications_MedicationEntity.browse#create             197,0         197         197         0,0           1
+medications_MedicationEntity.browse#load              5125,0        5125        5125         0,0           1
+medications_MedicationEntity.browse#xml                 12,0          12          12         0,0           1
+medications_RegistrationStatus.browse#afterShow          0,0           0           0         0,0           1
+medications_RegistrationStatus.browse#beforeShow       579,0         579         579         0,0           1
+medications_RegistrationStatus.browse#create           429,0         429         429         0,0           1
+medications_RegistrationStatus.browse#init              18,0          18          18         0,0           1
+medications_RegistrationStatus.browse#inject            28,0          28          28         0,0           1
+medications_RegistrationStatus.browse#load            6031,0        6031        6031         0,0           1
+medications_RegistrationStatus.browse#uiPermissions         0,0           0           0         0,0           1
+medications_RegistrationStatus.browse#xml               33,0          33          33         0,0           1
+
+Performance Statistics   2020-07-21 00:08:00 - 2020-07-21 00:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.medications_MedicationEntity.browse          6048,0        6048        6048         0,0           1
+medications_MedicationEntity.browse#afterShow            0,0           0           0         0,0           1
+medications_MedicationEntity.browse#beforeShow         172,0         172         172         0,0           1
+medications_MedicationEntity.browse#init                 2,0           2           2         0,0           1
+medications_MedicationEntity.browse#inject              24,0          24          24         0,0           1
+medications_MedicationEntity.browse#uiPermissions         0,0           0           0         0,0           1
+sysInfoWindow#afterShow                                  0,0           0           0         0,0           1
+sysInfoWindow#beforeShow                                80,0          80          80         0,0           1
+sysInfoWindow#companion                                 15,0          15          15         0,0           1
+sysInfoWindow#create                                   588,0         588         588         0,0           1
+sysInfoWindow#init                                     494,0         494         494         0,0           1
+sysInfoWindow#inject                                  1313,0        1313        1313         0,0           1
+sysInfoWindow#load                                    1721,0        1721        1721         0,0           1
+sysInfoWindow#uiPermissions                              0,0           0           0         0,0           1
+sysInfoWindow#xml                                        4,2           1          14         5,0           5
+
+Performance Statistics   2020-07-21 00:10:00 - 2020-07-21 00:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:12:00 - 2020-07-21 00:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:14:00 - 2020-07-21 00:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:16:00 - 2020-07-21 00:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.medications_MedicationEntity.browse            99,0          99          99         0,0           1
+medications_MedicationEntity.browse#afterShow            0,0           0           0         0,0           1
+medications_MedicationEntity.browse#beforeShow          12,0          12          12         0,0           1
+medications_MedicationEntity.browse#create               5,0           5           5         0,0           1
+medications_MedicationEntity.browse#init                 0,0           0           0         0,0           1
+medications_MedicationEntity.browse#inject               0,0           0           0         0,0           1
+medications_MedicationEntity.browse#load                42,0          42          42         0,0           1
+medications_MedicationEntity.browse#uiPermissions         0,0           0           0         0,0           1
+medications_MedicationEntity.browse#xml                  0,0           0           0         0,0           1
+
+Performance Statistics   2020-07-21 00:18:00 - 2020-07-21 00:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:20:00 - 2020-07-21 00:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:22:00 - 2020-07-21 00:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:24:00 - 2020-07-21 00:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:26:00 - 2020-07-21 00:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:28:00 - 2020-07-21 00:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:30:00 - 2020-07-21 00:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:32:00 - 2020-07-21 00:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:34:00 - 2020-07-21 00:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:36:00 - 2020-07-21 00:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:38:00 - 2020-07-21 00:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:40:00 - 2020-07-21 00:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 00:42:00 - 2020-07-21 00:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 09:54:00 - 2020-07-21 09:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 09:58:00 - 2020-07-21 10:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:00:00 - 2020-07-21 10:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:02:00 - 2020-07-21 10:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:10:00 - 2020-07-21 10:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:12:00 - 2020-07-21 10:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:14:00 - 2020-07-21 10:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:16:00 - 2020-07-21 10:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:18:00 - 2020-07-21 10:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:20:00 - 2020-07-21 10:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:22:00 - 2020-07-21 10:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:24:00 - 2020-07-21 10:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:30:00 - 2020-07-21 10:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:32:00 - 2020-07-21 10:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:38:00 - 2020-07-21 10:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:40:00 - 2020-07-21 10:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+login#afterShow                                          0,0           0           0         0,0           2
+login#beforeShow                                         1,5           0           3         1,5           2
+login#create                                           118,5           6         231       112,5           2
+login#init                                              17,5           0          35        17,5           2
+login#inject                                            28,5           0          57        28,5           2
+login#load                                             450,5          27         874       423,5           2
+login#uiPermissions                                      0,0           0           0         0,0           2
+login#xml                                                7,5           1          14         6,5           2
+main#afterShow                                        1493,0        1493        1493         0,0           1
+main#beforeShow                                          0,0           0           0         0,0           1
+main#create                                             47,0          47          47         0,0           1
+main#init                                              484,0         484         484         0,0           1
+main#inject                                             14,0          14          14         0,0           1
+main#load                                              354,0         354         354         0,0           1
+main#uiPermissions                                       0,0           0           0         0,0           1
+main#xml                                                 3,0           3           3         0,0           1
+medications_RegistrationStatus.browse#afterShow          0,0           0           0         0,0           1
+medications_RegistrationStatus.browse#beforeShow       177,0         177         177         0,0           1
+medications_RegistrationStatus.browse#create            23,0          23          23         0,0           1
+medications_RegistrationStatus.browse#init               2,0           2           2         0,0           1
+medications_RegistrationStatus.browse#inject             1,0           1           1         0,0           1
+medications_RegistrationStatus.browse#load            1091,0        1091        1091         0,0           1
+medications_RegistrationStatus.browse#uiPermissions         0,0           0           0         0,0           1
+medications_RegistrationStatus.browse#xml                2,0           2           2         0,0           1
+
+Performance Statistics   2020-07-21 10:42:00 - 2020-07-21 10:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.entityInspector.browse                        149,0         149         149         0,0           1
+MenuItem.medications_CountryOfRegistration.browse       427,0         427         427         0,0           1
+MenuItem.medications_MedicationEntity.browse           116,0         116         116         0,0           1
+entityInspector.browse#afterShow                         0,0           0           0         0,0           1
+entityInspector.browse#beforeShow                        0,0           0           0         0,0           1
+entityInspector.browse#companion                         1,0           1           1         0,0           1
+entityInspector.browse#create                            7,0           7           7         0,0           1
+entityInspector.browse#init                             46,0          46          46         0,0           1
+entityInspector.browse#inject                           31,0          31          31         0,0           1
+entityInspector.browse#load                             11,0          11          11         0,0           1
+entityInspector.browse#uiPermissions                     0,0           0           0         0,0           1
+entityInspector.browse#xml                               1,5           0           3         1,5           2
+entityInspector.browse.lookupWindowActions#init          0,0           0           0         0,0           1
+entityInspector.browse@entitiesDs                      374,5          33         716       341,5           2
+lookupWindowActions#create                              20,0          20          20         0,0           1
+lookupWindowActions#inject                               6,0           6           6         0,0           1
+lookupWindowActions#load                                 8,0           8           8         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+medications_CountryOfRegistration.browse#afterShow         0,0           0           0         0,0           1
+medications_CountryOfRegistration.browse#beforeShow        17,0          17          17         0,0           1
+medications_CountryOfRegistration.browse#create          5,0           5           5         0,0           1
+medications_CountryOfRegistration.browse#init            0,0           0           0         0,0           1
+medications_CountryOfRegistration.browse#inject          1,0           1           1         0,0           1
+medications_CountryOfRegistration.browse#load          323,0         323         323         0,0           1
+medications_CountryOfRegistration.browse#uiPermissions         0,0           0           0         0,0           1
+medications_CountryOfRegistration.browse#xml             1,0           1           1         0,0           1
+medications_MedicationEntity.browse#afterShow            0,0           0           0         0,0           1
+medications_MedicationEntity.browse#beforeShow          19,0          19          19         0,0           1
+medications_MedicationEntity.browse#create               3,0           3           3         0,0           1
+medications_MedicationEntity.browse#init                 0,0           0           0         0,0           1
+medications_MedicationEntity.browse#inject               0,0           0           0         0,0           1
+medications_MedicationEntity.browse#load                51,0          51          51         0,0           1
+medications_MedicationEntity.browse#uiPermissions         0,0           0           0         0,0           1
+medications_MedicationEntity.browse#xml                  2,0           2           2         0,0           1
+sysInfoWindow#afterShow                                  0,0           0           0         0,0           1
+sysInfoWindow#beforeShow                                 7,0           7           7         0,0           1
+sysInfoWindow#companion                                  2,0           2           2         0,0           1
+sysInfoWindow#create                                    30,0          30          30         0,0           1
+sysInfoWindow#init                                      43,0          43          43         0,0           1
+sysInfoWindow#inject                                    27,0          27          27         0,0           1
+sysInfoWindow#load                                     111,0         111         111         0,0           1
+sysInfoWindow#uiPermissions                              0,0           0           0         0,0           1
+sysInfoWindow#xml                                        0,6           0           3         1,2           5
+
+Performance Statistics   2020-07-21 10:44:00 - 2020-07-21 10:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+entityInspector.browse@entitiesDs                       12,2           8          25         4,6          14
+sysInfoWindow#afterShow                                  0,0           0           0         0,0           1
+sysInfoWindow#beforeShow                                 0,0           0           0         0,0           1
+sysInfoWindow#companion                                  0,0           0           0         0,0           1
+sysInfoWindow#create                                     3,0           3           3         0,0           1
+sysInfoWindow#init                                      12,0          12          12         0,0           1
+sysInfoWindow#inject                                     0,0           0           0         0,0           1
+sysInfoWindow#load                                      12,0          12          12         0,0           1
+sysInfoWindow#uiPermissions                              0,0           0           0         0,0           1
+sysInfoWindow#xml                                        0,2           0           1         0,4           5
+
+Performance Statistics   2020-07-21 10:46:00 - 2020-07-21 10:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:48:00 - 2020-07-21 10:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:50:00 - 2020-07-21 10:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:52:00 - 2020-07-21 10:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:54:00 - 2020-07-21 10:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:56:00 - 2020-07-21 10:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 10:58:00 - 2020-07-21 11:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:00:00 - 2020-07-21 11:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:02:00 - 2020-07-21 11:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:04:00 - 2020-07-21 11:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:06:00 - 2020-07-21 11:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:08:00 - 2020-07-21 11:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:10:00 - 2020-07-21 11:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:12:00 - 2020-07-21 11:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:14:00 - 2020-07-21 11:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:16:00 - 2020-07-21 11:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:18:00 - 2020-07-21 11:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:20:00 - 2020-07-21 11:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:36:00 - 2020-07-21 11:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+login#afterShow                                          0,0           0           0         0,0           1
+login#beforeShow                                         2,0           2           2         0,0           1
+login#create                                           167,0         167         167         0,0           1
+login#init                                              25,0          25          25         0,0           1
+login#inject                                            40,0          40          40         0,0           1
+login#load                                             830,0         830         830         0,0           1
+login#uiPermissions                                      1,0           1           1         0,0           1
+login#xml                                               12,0          12          12         0,0           1
+
+Performance Statistics   2020-07-21 11:38:00 - 2020-07-21 11:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+main#afterShow                                        2192,0        2192        2192         0,0           1
+main#beforeShow                                          0,0           0           0         0,0           1
+main#create                                             19,0          19          19         0,0           1
+main#init                                               80,0          80          80         0,0           1
+main#inject                                             11,0          11          11         0,0           1
+main#load                                              411,0         411         411         0,0           1
+main#uiPermissions                                       0,0           0           0         0,0           1
+main#xml                                                 5,0           5           5         0,0           1
+medications_RegistrationStatus.browse#afterShow          0,0           0           0         0,0           1
+medications_RegistrationStatus.browse#beforeShow       533,0         533         533         0,0           1
+medications_RegistrationStatus.browse#create            36,0          36          36         0,0           1
+medications_RegistrationStatus.browse#init               9,0           9           9         0,0           1
+medications_RegistrationStatus.browse#inject             1,0           1           1         0,0           1
+medications_RegistrationStatus.browse#load            1080,0        1080        1080         0,0           1
+medications_RegistrationStatus.browse#uiPermissions         0,0           0           0         0,0           1
+medications_RegistrationStatus.browse#xml                7,0           7           7         0,0           1
+
+Performance Statistics   2020-07-21 11:40:00 - 2020-07-21 11:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:42:00 - 2020-07-21 11:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:44:00 - 2020-07-21 11:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:46:00 - 2020-07-21 11:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:48:00 - 2020-07-21 11:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:50:00 - 2020-07-21 11:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:52:00 - 2020-07-21 11:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:54:00 - 2020-07-21 11:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:56:00 - 2020-07-21 11:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 11:58:00 - 2020-07-21 12:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 12:00:00 - 2020-07-21 12:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 12:02:00 - 2020-07-21 12:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-07-21 12:04:00 - 2020-07-21 12:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
